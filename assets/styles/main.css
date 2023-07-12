@@ -1,0 +1,125 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 21%);
+}
+
+.brutal-border {
+  border: 2px solid hsl(0, 0%, 21%);
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 hsl(0, 0%, 21%) !important;
+  transition: box-shadow 0.1s linear;
+}
+
+.brutal-button {
+  cursor: pointer;
+  float: left;
+  border: 2px solid hsl(0, 0%, 21%);
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  box-shadow: 2px 2px 0 hsl(0, 0%, 21%) !important;
+  transition: box-shadow 0.1s linear;
+}
+
+.brutal-button > img {
+  padding: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.brutal-button:hover {
+  box-shadow: 5px 5px 0 hsl(0, 0%, 21%) !important;
+}
+
+.gradient-background-light {
+  background-image: linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 50%,
+    hsla(236, 67%, 55%, 1) 100%
+  );
+  background-image: -moz-linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 50%,
+    hsla(236, 67%, 55%, 1) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 50%,
+    hsla(236, 67%, 55%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9E7BB", endColorstr="#E97CBB", GradientType=1 );
+}
+
+.gradient-background {
+  background-image: linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 20%,
+    hsla(236, 67%, 55%, 1) 40%,
+    hsla(0, 0%, 21%, 1) 100%
+  );
+  background-image: -moz-linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 20%,
+    hsla(236, 67%, 55%, 1) 40%,
+    hsla(0, 0%, 21%, 1) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 20%,
+    hsla(236, 67%, 55%, 1) 40%,
+    hsla(0, 0%, 21%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9E7BB", endColorstr="#E97CBB", GradientType=1 );
+}
+
+.gradient-background.link {
+  cursor: pointer;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 100%;
+  background-position: bottom right;
+  transition: all 0.3s linear;
+}
+
+.gradient-background.link.hoverable:hover {
+  background-position: bottom right 100%;
+}
+
+.gradient-background.link.is-active {
+  background-position: bottom right 100%;
+}
+
+.notie-container {
+  box-shadow: none;
+  border-bottom: 2px solid hsl(0, 0%, 21%);
+  font-weight: 600;
+  font-size: large;
+  background: hsla(43, 84%, 85%, 1);
+  background: linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 50%,
+    hsla(236, 67%, 55%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 50%,
+    hsla(236, 67%, 55%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    315deg,
+    hsla(43, 84%, 85%, 1) 0%,
+    hsla(325, 71%, 70%, 1) 50%,
+    hsla(236, 67%, 55%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9E7BB", endColorstr="#E97CBB", GradientType=1 );
+}

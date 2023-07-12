@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.16.19",
+    "@types/notie": "^4.3.0",
+    "nuxt": "^3.6.2"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
+    "notie": "^4.3.1"
+  }
+}

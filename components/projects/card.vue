@@ -4,6 +4,8 @@
     target="_blank"
     @mouseover="hover = true"
     @mouseleave="hover = false"
+    @mousedown="hover = true"
+    @mouseup="hover = false"
     class="project-card"
   >
     <div class="project-card-img-container brutal-border">

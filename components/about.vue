@@ -26,7 +26,7 @@
             <img src="/linkedin.svg" />
           </a>
           <a @click="copyEmail" class="brutal-button">
-            <img src="/at-sign.svg" />
+            <img src="/mail.svg" />
           </a>
         </div>
       </div>
